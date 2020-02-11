@@ -13,5 +13,4 @@ Pod::Spec.new do |s|
   s.watchos.deployment_target = "2.0"
   s.source   = { :git => "https://github.com/apple/swift-log.git", :tag => s.version }
   s.source_files = "Sources/Logging/**/*.swift"
-  s.dependency 'Logging', '~> 1.1'
 end
