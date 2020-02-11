@@ -1,27 +1,17 @@
-{
-  "name": "Logging",
-  "version": "1.2.0",
-  "license": {
-    "type": "Apache 2.0",
-    "file": "LICENSE.txt"
-  },
-  "summary": "A Logging API for Swift.",
-  "homepage": "https://github.com/apple/swift-log",
-  "authors": "Apple Inc.",
-  "source": {
-    "git": "https://github.com/apple/swift-log.git",
-    "tag": "1.2.0"
-  },
-  "documentation_url": "https://apple.github.io/swift-log",
-  "module_name": "Logging",
-  "swift_versions": "5.0",
-  "cocoapods_version": ">=1.6.0",
-  "platforms": {
-    "ios": "8.0",
-    "osx": "10.9",
-    "tvos": "9.0",
-    "watchos": "2.0"
-  },
-  "source_files": "Sources/Logging/**/*.swift",
-  "swift_version": "5.0"
-}
+Pod::Spec.new do |s|
+  s.name        = "Logging"
+  s.version     = "1.2.0"
+  s.summary     = "A Logging API for Swift."
+  s.homepage    = "https://github.com/IBM-Swift/LoggerAPI"
+  s.license     = { :type => "Apache License, Version 2.0" }
+  s.author     = "Apple Inc."
+  s.module_name  = 'Logging'
+  s.swift_version = '5.0'
+  s.osx.deployment_target = "10.9"
+  s.ios.deployment_target = "8.0"
+  s.tvos.deployment_target = "9.0"
+  s.watchos.deployment_target = "2.0"
+  s.source   = { :git => "https://github.com/apple/swift-log.git", :tag => s.version }
+  s.source_files = "Sources/Logging/**/*.swift"
+  s.dependency 'Logging', '~> 1.1'
+end
