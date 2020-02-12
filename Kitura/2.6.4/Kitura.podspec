@@ -14,4 +14,5 @@ Pod::Spec.new do |s|
     s.dependency 'EDKituraContracts', '~> 1.2.1'
     s.dependency 'TypeDecoder', '~> 1.3.0'
     s.dependency 'EDBlueSocket', '~> 1.0.0'
+    s.dependency 'KituraNet', '~> 2.1.8'
   end
