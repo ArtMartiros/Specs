@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
     s.source   = { :git => "https://github.com/makleso6/Kitura.git", :tag => s.version }
     s.source_files = 'Sources/**/*.swift'
     s.dependency 'KituraTemplateEngine', '~> 2.0.0'
-    s.dependency 'KituraContracts', '~> 1.2.1'
+    s.dependency 'EDKituraContracts', '~> 1.2.1'
     s.dependency 'TypeDecoder', '~> 1.3.0'
   end

@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name        = "KituraContracts"
+    s.name        = "EDKituraContracts"
     s.version     = "1.2.1"
     s.summary     = "KituraContracts is a library containing type definitions shared by client and server code."
     s.homepage    = "https://github.com/IBM-Swift/KituraContracts"
