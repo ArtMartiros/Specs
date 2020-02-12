@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
       s.tvos.deployment_target = "9.0"
       s.source   = { :git => "https://github.com/IBM-Swift/BlueSSLService.git", :tag => s.version }
       s.source_files = "Sources/SSLService/*.swift"
-      s.dependency 'EDBlueSocket', '= 1.0.0'
+      s.dependency 'EDBlueSocket', '~> 1.0.0'
       s.pod_target_xcconfig =  {
             'SWIFT_VERSION' => '5.0',
       }
