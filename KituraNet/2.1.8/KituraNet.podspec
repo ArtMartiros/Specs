@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.source_files = 'Sources/**/*.swift', 'Sources/CHTTPParser/*.c', 'Sources/CHTTPParser/include/*.h'
   s.dependency 'EDLoggerAPI', '~> 1.9.0'
   s.dependency 'EDBlueSocket', '~> 1.0.0'
-  s.dependency 'BlueSSLService', '~> 1.0.0'
+  s.dependency 'EDBlueSSLService', '~> 1.0.0'
 end
