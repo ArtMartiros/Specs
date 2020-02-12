@@ -15,5 +15,6 @@ Pod::Spec.new do |s|
     s.source_files = "Sources/Socket/*.swift"
     s.pod_target_xcconfig =  {
           'SWIFT_VERSION' => '5.0',
+          'DEFINES_MODULE' => 'YES',
     }
   end
