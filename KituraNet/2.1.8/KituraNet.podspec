@@ -15,5 +15,5 @@ Pod::Spec.new do |s|
   s.dependency 'EDLoggerAPI', '~> 1.9.0'
   s.dependency 'EDBlueSocket', '~> 1.0.0'
   s.dependency 'EDBlueSSLService', '~> 1.0.0'
-  s.dependency 'CHTTPParser', '~> 1.0.0'
+  s.dependency 'CHTTPParser', '~> 2.1.8'
 end
