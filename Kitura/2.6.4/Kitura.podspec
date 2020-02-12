@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.module_name  = 'Kitura'
     s.source   = { :git => "https://github.com/IBM-Swift/Kitura", :tag => s.version }
     s.source_files = 'Sources/**/*.swift'
-    s.dependency 'KituraTemplateEngine', '~> 2.0.8'
+    s.dependency 'KituraTemplateEngine', '~> 2.0.0'
     s.dependency 'KituraContracts', '~> 1.0.0'
     s.dependency 'TypeDecoder', '~> 1.3.0'
   end
