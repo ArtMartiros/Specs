@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.ios.deployment_target = '9.0'
     s.name        = "Kitura"
-    s.version     = "2.6.4"
+    s.version     = "2.6.3"
     s.summary     = "Kitura summary"
     s.homepage    = "https://github.com/IBM-Swift/Kitura"
     s.license     = { :type => "Apache License, Version 2.0" }
