@@ -14,7 +14,6 @@ Pod::Spec.new do |s|
     s.source   = { :git => "https://github.com/IBM-Swift/BlueSocket.git", :tag => s.version }
     s.source_files = "Sources/Socket/*.swift"
     s.pod_target_xcconfig =  {
-          'SWIFT_VERSION' => '5.0',
           'DEFINES_MODULE' => 'YES',
     }
   end
