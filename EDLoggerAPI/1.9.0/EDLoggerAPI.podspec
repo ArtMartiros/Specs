@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name        = "LoggerAPI"
+  s.name        = "EDLoggerAPI"
   s.version     = "1.9.0"
   s.summary     = "A logger protocol that provides a common logging interface for different kinds of loggers."
   s.homepage    = "https://github.com/IBM-Swift/LoggerAPI"
