@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
   s.module_name  = 'KituraNet'
   s.source   = { :git => "https://github.com/makleso6/Kitura-net.git", :tag => s.version }
   s.source_files = 'Sources/**/*.swift'
+  s.pod_target_xcconfig =  { 'DEFINES_MODULE' => 'YES' }
   s.dependency 'EDLoggerAPI', '~> 1.9.0'
   s.dependency 'EDBlueSocket', '~> 1.0.0'
   s.dependency 'EDBlueSSLService', '~> 1.0.0'
