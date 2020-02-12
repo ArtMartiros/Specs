@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.platform = :ios
   s.ios.deployment_target = '9.0'
   s.name        = "KituraNet"
-  s.version     = "2.4.0"
+  s.version     = "2.1.8"
   s.summary     = "KituraNet summary"
   s.homepage    = "https://github.com/makleso6/Kitura-net.git"
   s.license     = { :type => "Apache License, Version 2.0" }
