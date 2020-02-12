@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.ios.deployment_target = '9.0'
     s.name        = "TypeDecoder"
-    s.version     = "1.0.0"
+    s.version     = "1.3.0"
     s.summary     = "KituraNet summary"
     s.homepage    = "https://github.com/IBM-Swift/TypeDecoder"
     s.license     = { :type => "Apache License, Version 2.0" }
