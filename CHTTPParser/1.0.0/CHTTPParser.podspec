@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
     s.license     = { :type => "Apache License, Version 2.0" }
     s.author     = "IBM"
     s.module_name  = 'CHTTPParser'
-    s.source   = { :git => "https://github.com/makleso6/Kitura-net.git", :tag => s.version }
+    s.source   = { :git => "https://github.com/makleso6/Kitura-net.git", :tag => '2.1.8' }
     s.source_files = 'Sources/CHTTPParser/*.c', 'Sources/CHTTPParser/include/*.h'
   end
