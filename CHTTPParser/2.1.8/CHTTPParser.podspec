@@ -11,4 +11,7 @@ Pod::Spec.new do |s|
     s.module_name  = 'CHTTPParser'
     s.source   = { :git => "https://github.com/makleso6/Kitura-net.git", :tag => s.version }
     s.source_files = 'Sources/CHTTPParser/*.c', 'Sources/CHTTPParser/include/*.h'
+    s.pod_target_xcconfig =  {
+      'DEFINES_MODULE' => 'YES',
+    }
   end
