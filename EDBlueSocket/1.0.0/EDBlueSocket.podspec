@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-    s.name        = "EDBlueSocket"
+    s.name        = "Socket"
     s.version     = "1.0.52"
     s.summary     = "Socket framework for Swift using the Swift Package Manager"
     s.homepage    = "https://github.com/IBM-Swift/BlueSocket"
