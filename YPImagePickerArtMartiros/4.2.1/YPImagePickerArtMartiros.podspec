@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
     s.platform = :ios
     s.ios.deployment_target = '9.0'
     s.name        = "YPImagePickerArtMartiros"
-    s.version     = "1.3.0"
+    s.version     = "4.2.1"
     s.summary     = "KituraNet summary"
     s.homepage    = "https://github.com/ArtMartiros/YPImagePicker"
     s.license     = { :type => "Apache License, Version 2.0" }
